@@ -9,7 +9,7 @@ import StreamShow from './streams/StreamShow'
 
 const App = () => {
     return (
-        <div className="ui container">
+        <div className="ui container-fluid">
             <BrowserRouter>
                 <Header />
                 <Route path="/" exact component={StreamList} />
